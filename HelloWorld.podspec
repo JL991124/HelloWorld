@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HelloWorld"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Test"
   spec.swift_version = "5"
 
