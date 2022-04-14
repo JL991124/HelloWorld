@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HelloWorld"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "Test"
   spec.swift_version = "5.5.2"
   spec.watchos.deployment_target = "2.0"
