@@ -16,19 +16,23 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HelloWorld"
-  spec.version      = "1.0.3"
+  spec.version      = "2.0.0"
   spec.summary      = "Test"
-  spec.swift_version = "5.5.2"
-  spec.watchos.deployment_target = "2.0"
-
+  spec.swift_version             = "5.5.2"
+  spec.watchos.deployment_target = '2.0'
+  spec.description  = "Test Test Test"
+  spec.homepage     = "https://github.com/JL991124/HelloWorld"
+  spec.license      = "MIT"
+  spec.author       = { "jay.lam" => "jay.lam@bbpos.com" }
+  spec.platform     = :ios, "11.0"
+  spec.source       = { :git => "https://github.com/JL991124/HelloWorld.git", :tag => "#{spec.version}" }
+  spec.source_files = "HelloWorld", "HelloWorld/**/*.{h,m,swift}"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "Test Test"
 
-  spec.homepage     = "https://github.com/JL991124/HelloWorld"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +43,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
+
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,7 +57,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "jay.lam" => "jay.lam@bbpos.com" }
+
   # Or just: spec.author    = "jay.lam"
   # spec.authors            = { "jay.lam" => "jay.lam@bbpos.com" }
   # spec.social_media_url   = "https://twitter.com/jay.lam"
@@ -65,7 +69,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -80,7 +84,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/JL991124/HelloWorld.git", :tag => "#{spec.version}" }
+  
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,8 +95,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "HelloWorld", "HelloWorld/**/*.{h,m,swift}"
-  spec.exclude_files = "HelloWorld/Exclude"
+
+  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
