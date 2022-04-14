@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		55B4163D2806BA7C00BE8955 /* libHelloWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHelloWorld.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B416402806BA7C00BE8955 /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
+		55B4168E2808238000BE8955 /* HelloWorld.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HelloWorld.podspec; path = ../HelloWorld.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		55B416342806BA7C00BE8955 = {
 			isa = PBXGroup;
 			children = (
+				55B4168E2808238000BE8955 /* HelloWorld.podspec */,
 				55B4163F2806BA7C00BE8955 /* HelloWorld */,
 				55B4163E2806BA7C00BE8955 /* Products */,
 			);
