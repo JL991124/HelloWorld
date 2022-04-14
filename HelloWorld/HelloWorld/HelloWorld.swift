@@ -9,4 +9,8 @@ public class HelloWorld {
     public static func helloWorld(name: String) {
         print("Hello World, \(name)")
     }
+    
+    public static func bye(name: String) -> String {
+        return "Bye \(name)!!"
+    }
 }
